@@ -76,11 +76,14 @@ button {
 		letter-spacing: 0.02em;
 		margin-bottom: 40px;
 	}
+}
 
-	&-owner {
+.product-owner {
+	width: 250px;
+	height: 60px;
+	margin-bottom: 20px;
+	& .btn-name {
 		padding: 16px 60px;
-		width: 250px;
-		height: 60px;
 		color: #fff;
 		background-color: #ff6b09;
 		font-weight: 500;
@@ -88,7 +91,22 @@ button {
 		line-height: 1.17;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
-		margin-bottom: 20px;
+	}
+	&-info {
+		padding: 12px 26px;
+		background-color: #f5f6fb;
+		border: 2px solid #ff6b09;
+		font-weight: 300;
+		font-size: 12px;
+		text-align: center;
+	}
+	&-name {
+		font-weight: 500;
+		font-size: 18px;
+	}
+	&-phone {
+		text-transform: uppercase;
+		font-weight: 500;
 	}
 }
 
@@ -100,6 +118,20 @@ button {
 	letter-spacing: 0.02em;
 	color: #878686;
 	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	& .btn {
+		display: flex;
+		align-items: center;
+		& svg {
+			display: inline;
+			width: 16px;
+			height: 16px;
+		}
+	}
+	& .btn.btn-left {
+		margin-right: 45px;
+	}
 }
 
 .description {
