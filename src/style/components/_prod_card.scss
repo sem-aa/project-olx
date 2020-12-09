@@ -1,0 +1,55 @@
+.prod_card {
+    margin-top:30px;
+    margin-bottom: 30px;
+    height: 350px;
+    max-width: 380px;
+    font-weight:300;
+  
+    &-inner_wrapper {
+        outline: 1px solid #000980;
+        height: 350px;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       overflow:hidden;
+    }
+
+    &-link {
+        background-color: green;
+        width: 100%;
+        height:100%;
+        vertical-align: middle;
+       
+    }
+    &-image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    };
+    &-description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 70px;
+        width: 100%;
+        outline: 1px solid orangered;
+        padding-left:10px;
+    };
+    &-position {
+        color: black;
+    };
+    &-price_box{
+   
+    };
+    &-old_price{
+        color: black;
+        margin-right: 10px;
+    };
+    &-new_price{
+        color: orange;
+    };
+}
+.cross_out { 
+    text-decoration:line-through;
+}
