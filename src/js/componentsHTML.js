@@ -1,3 +1,6 @@
-const footer = require('../partials/footer.handlebars')
+import { Modal } from 'bootstrap';
 
-export default [footer]
+const addModal = require('../partials/add-modal.handlebars');
+const footer = require('../partials/footer.handlebars');
+
+export default [addModal, footer];
