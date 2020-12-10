@@ -23,16 +23,17 @@
   }
   
   &-close{
-      width: 24px;
-      height: 24px;
       position: absolute;
-      top: 25px;
-      right: 24px;
+      top: 15px;
+      right: 14px;
+      background-color: inherit;
+      border:none;
   }
 }
         
 .auth-modal-title{
     // width: 442px;
+    // display: block;
     margin-bottom: 20px;
     font-family: Roboto;
     font-weight: bold;
@@ -66,6 +67,10 @@
     &-text{
         font-size: 14px;
         font-weight: bold;
+    }
+
+    &-icon{
+        margin-right: 10px;
     }
 }
 
