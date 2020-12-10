@@ -15,10 +15,14 @@ padding-right: 20px;
 padding-left: 20px;
 padding-bottom: 50px;
 padding-top: 57px;
-    @media screen and (min-width: $mobile-upper) {
-        padding-left: 103px;
+@media screen and (min-width: $mobile-upper) {
+    padding-left: 103px;
         padding-right: 102px; 
-    }
+  }
+    // @media screen and (min-width: $mobile-upper) {
+    //     padding-left: 103px;
+    //     padding-right: 102px; 
+    // }
 // @media screen and (max-width: $mobile-upper) {
 //     width: 650px;   
 // }
