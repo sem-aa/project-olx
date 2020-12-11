@@ -14,4 +14,4 @@ import './componentsJS/myCalls';
 // import './componentsJS/prodCard';
 
 
-import './js/exampleBackend'
+// import './js/exampleBackend'
