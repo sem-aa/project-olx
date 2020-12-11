@@ -10,6 +10,7 @@ import heart from './images/heart.png';
 import heartfill from './images/heartfill.png';
 // import './js/cardAddToFavorites'
 import './componentsJS/addModal';
-// import './componentsJS/prodCard';  
-import './js/renderComponentsHTML';
+import './componentsJS/myCalls';
+// import './componentsJS/prodCard';
+
 
