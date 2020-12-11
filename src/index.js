@@ -4,4 +4,4 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.scss';  
 import './js/prodCard'
 import './js/renderComponentsHTML'
-import './js/fetchCategories'
+import fetchCategories from './js/fetchCategories'

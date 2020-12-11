@@ -1,4 +1,4 @@
-function fetchProducts (){
+export function fetchProducts (){
    return fetch("https://callboard-backend.herokuapp.com/call/categories")
     .then(categories=>categories.json())
 }
