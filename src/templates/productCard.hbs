@@ -1,18 +1,22 @@
-   <div class="prod_card">
-      <a class="prod_card-link" href="#">
-        <div class="prod_card-inner_wrapper">
-          <img class="prod_card-image" src="#" alt="">
-          <div class="cover">
-            <div class="heart_icon-wrapper"><img class="heart-icon" src="./images/heart.png" alt=""></div>
-            <div class="fullscreen_icon-wrapper"><img class="fullscreen-icon" src="./images/fullscreen.png" alt=""></div>
-          </div>
-          <div class="prod_card-description">
-            <div class="prod_card-position">{{prod-name}}</div>
-            <div class="prod_card-price_box">
-               <span class="prod_card-old_price">{{price}}</span>
-               <span class="prod_card-new_price">{{sale-price}}</span>
-          </div>
-          </div>
+<div class="cards_wrapper">
+{{#each this}}
+  <div class="prod_card">
+    <a class="prod_card-link" href="#">
+      <div class="prod_card-inner_wrapper">
+        <img class="prod_card-image" src="#" alt="">
+        <div class="cover">
+          <div class="heart_icon-wrapper"></div>
+          <div class="fullscreen_icon-wrapper"></div>
         </div>
-      </a>
+        <div class="prod_card-description">
+          <div class="prod_card-position">{{prod-name}}</div>
+          <div class="prod_card-price_box">
+             <span class="prod_card-old_price">{{price}}</span>
+             <span class="prod_card-new_price">{{sale-price}}</span>
+        </div>
+        </div>
+      </div>
+    </a>
   </div>
+  {{/each}}
+</div>

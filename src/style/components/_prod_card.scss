@@ -43,6 +43,7 @@
         display: block;
         width: 100%;
         height: auto;
+        max-height: 280px;
     };
     &-description {
         outline: 1px solid orange;
@@ -57,9 +58,6 @@
     };
     &-position {
         color: black;
-    };
-    &-price_box{
-   
     };
     &-old_price{
         color: black;
@@ -80,15 +78,19 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    height: 280px;
     width:100%;
-    background-color: rgba($color: black, $alpha: 0.4);
+    height: 280px;
+    background-color: rgba($color: black, $alpha: 0.2);
+
 }
 .fullscreen_icon-wrapper {
     margin-bottom: 20px;
     margin-right: 20px;
     width: 22px;
     height: 22px;
+    background-image: url(images/fullscreen.png);
+    background-repeat: no-repeat;
+    background-position:center;
 }
 .fullscreen_icon {
     width: 22px;
@@ -99,8 +101,21 @@
     height: 22px;
     margin-top: 20px;
     margin-right: 20px;
+    background-image: url(images/heart.png);
+    background-repeat: no-repeat;
+    background-position:center;
 }
 .heart_icon {
     width: 22px;
     height: 22px;
+}
+.fill {
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+    margin-right: 20px;
+      background-image: url(images/heartfill.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 80% 80%;
 }
